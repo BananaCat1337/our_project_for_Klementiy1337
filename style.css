@@ -1,0 +1,42 @@
+.qqq {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.telega {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    color: #fff;
+    background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+    cursor: pointer;
+}
+
+.card-2 {
+    cursor: pointer;
+}
