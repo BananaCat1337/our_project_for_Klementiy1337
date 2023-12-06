@@ -1,0 +1,52 @@
+.box {
+    margin: 10%;
+    position: absolute;
+    top: auto;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  ul {
+    display: inline-block;
+    line-height: 1px;
+  }
+
+  .notifications-item {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(98 105 118 / 16%);
+    width: 100%;
+  }
+
+  .card {
+    line-height: 5px;
+  }
+
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+  p {
+    color: rgb(255, 255, 255)
+  }
+
+  h5 {
+    color: #ffffff;
+  }
+
+  .displayed {
+    display: block;
+    margin-left: 45%;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .displayed1 {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+  }
