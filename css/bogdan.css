@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+header {
+    color: white;
+    background-color: black;
+    font-family: Rubik Bubbles;
+    display: flex;
+
+}
+
+
+.img-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header__nav {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 500px 0px 0px;
+    color: white;
+}
+
+
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: black;
 
@@ -29,7 +72,6 @@ p {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    width: 60%;
 
 }
 
@@ -40,13 +82,14 @@ img {
 
 .img3 {
     max-width: 100%;
-    padding-right: 20%;
 }
 
 .rightPart {
     width: 50vw;
+    margin-left: 50px;
 }
 
 .leftPart {
     width: 50vw;
+    margin-right: 50px;
 }
